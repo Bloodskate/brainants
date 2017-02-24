@@ -28,6 +28,12 @@
 
 }
 
+.navbar-nav > li > a:hover {
+    color: green;
+    background-color: #fff;
+
+}
+
 .navbar-nav > li > a > button {
     background-color: green;
     height: 50px;
@@ -35,4 +41,10 @@
     color: #fff;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.navbar-nav > li > a > button:hover {
+    background-color: #fff;
+    color: green;
+    border-color: green;
 }
