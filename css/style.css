@@ -1,0 +1,61 @@
+.filler {
+    min-height: 20000px;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+    min-height: 5em;
+}
+
+.navbar.navbar-default.navbar-fixed-top > .container {
+}
+
+.navbar-nav > li > a{
+    line-height: 50px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    float: none;
+}
+
+.navbar-brand > img {
+    height: 75px;
+}
+
+.navbar-header {
+    height: 10vh;
+}
+
+.navbar-header {
+}
+
+.navbar-toggle {
+    margin-top: 20px;
+}
+
+.navbar-collapse {
+    margin-top: 0;
+}
+
+.navbar-nav {
+    margin: 0 -15px;
+}
+.navbar-default .navbar-nav>.active>a{
+    color: #fff;
+    background-color: green;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: green;
+    font-size: 15px;
+    padding-left:  2em;
+    padding-right: 2em;
+}
+
+.navbar-default > li > .active {
+    background-color: chartreuse;
+}
