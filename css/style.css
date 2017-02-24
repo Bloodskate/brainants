@@ -1,11 +1,38 @@
+
+.navbar{
+    background-color: #fff;
+    height: 80px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    margin-bottom: 0;
+}
+
 .navbar-brand > img{
     height: 75px;
     margin-top: -12.5px;
     margin-left: -15px;
 }
 
-.navbar{
-    background-color: #fff;
-    min-height: 80px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+.navbar-nav {
+    padding-right: 15px;
+}
+
+.navbar-fixed-top .navbar-nav > .active > a{
+    color: green;
+}
+
+.navbar-nav > li > a {
+    color: #888;
+    line-height: 80px;
+    padding: 0 15px;
+    font-size: 18px;
+
+}
+
+.navbar-nav > li > a > button {
+    background-color: green;
+    height: 50px;
+    padding-bottom: 10px;
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
