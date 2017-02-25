@@ -48,3 +48,11 @@
     color: green;
     border-color: green;
 }
+
+.header {
+    background-image: url("../1.jpeg");
+    height: 750px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
