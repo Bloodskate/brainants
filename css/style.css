@@ -101,8 +101,22 @@ body {
 
 .navbar-fixed-top .navbar-toggle .icon-bar {
     background-color: #888;
+    width: 28px;
+    height: 4px;
 }
 
 button.navbar-toggle.collapsed, button.navbar-toggle{
     margin-top: 22px;
+}
+
+button.navbar-toggle.collapsed:hover .icon-bar-1, button.navbar-toggle:hover .icon-bar-1{
+    -ms-transform: translate(0,-2px); /* IE 9 */
+    -webkit-transform: translate(0,-2px); /* Safari */
+    transform: translate(0,-2px); /* Standard syntax */
+}
+
+button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .icon-bar-3{
+    -ms-transform: translate(0,2px); /* IE 9 */
+    -webkit-transform: translate(0,2px); /* Safari */
+    transform: translate(0,2px); /* Standard syntax */
 }
