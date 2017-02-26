@@ -35,9 +35,40 @@
     }
 }
 
+@media (max-width: 767px) {
+    #banner h1 {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 768px) {
+    #banner h1 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 992px) {
+    #banner h1 {
+        font-size: 42px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #banner h1 {
+        font-size: 48px;
+    }
+}
+
+
 body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #fff;
     padding-top: 80px;
 }
+
 .navbar{
     background-color: #fff;
     height: 80px;
@@ -89,7 +120,7 @@ body {
 }
 
 .header {
-    background-image: url("../Mockupwithgreen2.jpg");
+    background-color: green;
     height: 600px;
     width: 100%;
     background-repeat: no-repeat;
@@ -97,6 +128,7 @@ body {
     position: absolute;
     left: 0;
     background-position: center;
+    background-image: url("../Mockupwithgreen2.jpg");
 }
 
 .navbar-fixed-top .navbar-toggle .icon-bar {
@@ -119,4 +151,22 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
     -ms-transform: translate(0,2px); /* IE 9 */
     -webkit-transform: translate(0,2px); /* Safari */
     transform: translate(0,2px); /* Standard syntax */
+}
+
+.filler {
+    min-height: 200000px;
+}
+#banner p {
+    color: #fff;
+    text-align: center;
+}
+#banner h1 {
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.header-content {
+    margin-top: 350px;
 }
