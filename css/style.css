@@ -183,15 +183,39 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
     height: 600px;
     text-align: center;
     color: #154b53;
-    background-color: #c2e8ee;
+    background-color: #fff;
 }
 
-#technologies h1 {
-    font-weight: 700;
-}
 #technologies .underline {
     width: 300px;
     border-top: 2px solid #154b53;
     display: block;
     margin: 0 auto;
+}
+
+#work {
+    padding-top: 40px;
+    text-align: center;
+    background-color: #c2e8ee;
+    color: #154b53;
+    margin: 0;
+    width: 100%;
+}
+
+#work .underline {
+    width: 300px;
+    border-top: 2px solid #154b53;
+    display: block;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    text-align: center;
+    width: 400px;
+    margin: 40px auto;
+    padding: 12px 20px 20px 20px;
+    background-color: #fff;
 }
