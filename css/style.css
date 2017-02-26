@@ -36,25 +36,25 @@
 }
 
 @media (max-width: 767px) {
-    #banner h1 {
+    h1 {
         font-size: 34px;
     }
 }
 
 @media (min-width: 768px) {
-    #banner h1 {
+    h1 {
         font-size: 38px;
     }
 }
 
 @media (min-width: 992px) {
-    #banner h1 {
+    h1 {
         font-size: 42px;
     }
 }
 
 @media (min-width: 1200px) {
-    #banner h1 {
+    h1 {
         font-size: 48px;
     }
 }
@@ -67,6 +67,7 @@ body {
     color: #333333;
     background-color: #fff;
     padding-top: 80px;
+    height: 100%;
 }
 
 .navbar{
@@ -119,7 +120,7 @@ body {
     border-color: green;
 }
 
-.header {
+#banner {
     background-color: green;
     height: 600px;
     width: 100%;
@@ -156,6 +157,10 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
 .filler {
     min-height: 200000px;
 }
+
+#banner {
+    position: relative;
+}
 #banner p {
     color: #fff;
     text-align: center;
@@ -167,6 +172,26 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
     text-align: center;
 }
 
-.header-content {
-    margin-top: 350px;
+.banner-content {
+    margin-top: 375px;
+}
+
+#technologies {
+    padding-top: 40px;
+    margin: 0;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: #154b53;
+    background-color: #c2e8ee;
+}
+
+#technologies h1 {
+    font-weight: 700;
+}
+#technologies .underline {
+    width: 300px;
+    border-top: 2px solid #154b53;
+    display: block;
+    margin: 0 auto;
 }
