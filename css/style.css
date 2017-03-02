@@ -99,7 +99,7 @@ body {
 }
 
 .navbar-fixed-top .navbar-nav > .active > a{
-    color: green;
+    color: #DF1A00;
 }
 
 .navbar-nav > li > a {
@@ -111,13 +111,13 @@ body {
 }
 
 .navbar-nav > li > a:hover {
-    color: green;
+    color: #DF1A00;
     background-color: #fff;
 
 }
 
 .navbar-nav > li > a > button {
-    background-color: green;
+    background-color: #DF1A00;
     height: 50px;
     padding-bottom: 10px;
     color: #fff;
@@ -127,8 +127,8 @@ body {
 
 .navbar-nav > li > a > button:hover {
     background-color: #fff;
-    color: green;
-    border-color: green;
+    color: #DF1A00;
+    border-color: #DF1A00;
 }
 
 #banner {
@@ -241,6 +241,18 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
     height: 200px;
     width: auto;
     margin: 40px 20px;
+}
+
+.card .btn {
+    background-color: #DF1A00;
+    border-color: #DF1A00;
+}
+
+
+.card .btn:hover {
+    background-color: #fff;
+    border-color: #DF1A00;
+    color: #DF1A00;
 }
 
 #team {
