@@ -287,6 +287,11 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
     width: 200px;
 }
 
+.team-card h2 {
+    font-weight: 700;
+    color: #154b53;
+}
+
 #whatwedo {
     padding-top: 40px;
     text-align: center;
@@ -295,6 +300,7 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
     margin: 0;
     width: 100%;
 }
+
 
 #whatwedo .underline {
     width: 200px;
@@ -321,4 +327,11 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
 
 #whatwedo .container div{
     padding: 30px;
+}
+
+#footer {
+    width: 100%;
+    min-height: 400px;
+    border-top: 10px solid #DF1A00;
+    background-color: #154b53;
 }
