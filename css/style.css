@@ -1,4 +1,15 @@
-@media (max-width: 991px) {
+/* TO-DO
+ * optimize css
+ */
+
+/* COLORS
+ * primary: #154b53;
+ * secondary: #DF1A00;
+ * background: #c2e8ee;
+ */
+
+
+ @media (max-width: 991px) {
     .navbar-header {
         float: none;
     }
@@ -129,7 +140,8 @@ body {
     position: absolute;
     left: 0;
     background-position: center;
-    background-image: url("../Mockupwithgreen2.jpg");
+    background-image: url("../Mockup42.png");
+    padding: 0;
 }
 
 .navbar-fixed-top .navbar-toggle .icon-bar {
@@ -182,15 +194,20 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
     width: 100%;
     height: 600px;
     text-align: center;
-    color: #154b53;
+    color: #DF1A00;
     background-color: #fff;
 }
 
 #technologies .underline {
-    width: 300px;
-    border-top: 2px solid #154b53;
+    width: 200px;
+    border-top: 2px solid #DF1A00;
     display: block;
     margin: 0 auto;
+}
+
+#technologies img{
+    max-width: 100%;
+    padding: 20px;
 }
 
 #work {
@@ -203,8 +220,8 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
 }
 
 #work .underline {
-    width: 300px;
-    border-top: 2px solid #154b53;
+    width: 200px;
+    border-top: 2px solid #DF1A00;
     display: block;
     margin: 0 auto;
 }
@@ -212,10 +229,96 @@ button.navbar-toggle.collapsed:hover .icon-bar-3, button.navbar-toggle:hover .ic
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 40%;
+    width:auto;
     text-align: center;
-    width: 400px;
+    max-width: 300px;
     margin: 40px auto;
     padding: 12px 20px 20px 20px;
     background-color: #fff;
+}
+
+.card > img {
+    height: 200px;
+    width: auto;
+    margin: 40px 20px;
+}
+
+#team {
+    padding-top: 40px;
+    margin: 0;
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    color: #DF1A00;
+    background-color: #fff;
+}
+
+#team .underline {
+    width: 200px;
+    border-top: 2px solid #DF1A00;
+    display: block;
+    margin: 0 auto;
+}
+
+#team.container  p {
+    color: #555;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.team-card {
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    padding-top: 20px;
+    width: 300px;
+    height: 300px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.team-card:hover{
+    transform: scale(1.05);
+}
+
+.team-card img {
+    height: 200px;
+    width: 200px;
+}
+
+#whatwedo {
+    padding-top: 40px;
+    text-align: center;
+    background-color: #c2e8ee;
+    color: #154b53;
+    margin: 0;
+    width: 100%;
+}
+
+#whatwedo .underline {
+    width: 200px;
+    border-top: 2px solid #DF1A00;
+    display: block;
+    margin: 0 auto;
+}
+
+#whatwedo .mobile i {
+    font-size: 100px;
+}
+
+#whatwedo .web i {
+    font-size: 100px;
+}
+
+#whatwedo .seo i {
+    font-size: 80px;
+}
+
+#whatwedo .design i {
+    font-size: 80px;
+}
+
+#whatwedo .container div{
+    padding: 30px;
 }
